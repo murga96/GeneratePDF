@@ -2,8 +2,6 @@
 {
     public interface IGeneratePdfService
     {
-        byte[] FormatXmlToPDF(byte[] xmlPath, byte[] xsltFo, string outputPath);
-        byte[] GenerateXSLFO(byte[] xml, byte[] xsltFo);
-        byte[] GeneratePDF(byte[] inputFo, string fopConfigFilePath);
+        public byte[] FormatXmlToPDF(byte[] xml, byte[] xsltFo);
     }
 }
